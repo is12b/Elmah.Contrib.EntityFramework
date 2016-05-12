@@ -33,7 +33,7 @@ var elmahContext = new ElmahContext(nameOrConnectionString);
 var errors = await elmahContext.Errors.ToArrayAsync();
 ```
 
-Tou can also specify the table name to map:
+You can also specify the table name to map:
 ```csharp
 var elmahContext = new ElmahContext(nameOrConnectionString, "MyElmahErrorsTable");
 ```
